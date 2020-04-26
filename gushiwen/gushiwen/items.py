@@ -11,4 +11,5 @@ import scrapy
 class GushiwenItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    sentence = scrapy.Field()
+    title = scrapy.Field()
